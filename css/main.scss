@@ -1,0 +1,23 @@
+@import "./partials/mixin";
+@import "./partials/nav";
+@import "./partials/header";
+@import "./partials/breakpoint";
+@import "./partials/about";
+@import "./partials/article";
+@import "./partials/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: hsl(233, 26%, 24%);
+}
+
+p {
+  font-family: "PT Sans";
+}

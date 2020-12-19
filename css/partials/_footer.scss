@@ -1,0 +1,41 @@
+footer {
+  background-color: hsl(233, 26%, 24%);
+  padding: 10vh;
+  text-align: center;
+  color: white;
+
+  .social {
+    img {
+      background-color: rgb(228, 228, 228);
+    }
+
+    .social-icons {
+      margin: 20px 0;
+      img {
+        background: none;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin: 20px;
+      font-size: 14px;
+    }
+  }
+
+  .footer-btn {
+    button {
+      @include button;
+      display: block;
+      margin: 20px auto;
+    }
+
+    small {
+      color: #adadad;
+    }
+  }
+}
