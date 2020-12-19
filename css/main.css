@@ -301,6 +301,9 @@ header .hero-text button:hover {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
   }
+  .cards .info {
+    height: 300px !important;
+  }
   footer {
     padding: 10vh 50px !important;
   }
@@ -338,6 +341,9 @@ header .hero-text button:hover {
   }
   .row .col {
     margin-right: 10px;
+  }
+  .info {
+    height: 250px !important;
   }
   .footer-top {
     width: 70% !important;
